@@ -1,7 +1,15 @@
 // Public Enum
-export * from './common/enum';
+export {
+    Role,
+    StatusType
+} from './common/enum';
 
 // Public intefaces
-export * from './common/interfaces';
+export {
+    IAddress,
+    IUser,
+    IMenuConfig,
+    IAppConfig
+} from './common/interfaces';
 
 // Public ultilities

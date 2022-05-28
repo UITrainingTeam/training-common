@@ -34,7 +34,7 @@ function copyDebug() {
     });
 
     // g3js.js
-    fs.copyFileSync("./build/bundle.js", "./dist/healthcare-common.js", 0, (err) => {
+    fs.copyFileSync("./build/bundle.js", "./dist/index.js", 0, (err) => {
         if (err) {
             throw err;
         }
@@ -55,6 +55,6 @@ function copyDebug() {
             throw err;
         }
     }
-    fs.renameSync("./dist/index.d.ts", "./dist/healthcare-common.d.ts");
+    fs.renameSync("./dist/index.d.ts", "./dist/index.d.ts");
 };
 copyDebug();
