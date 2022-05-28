@@ -1,0 +1,67 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/src
+/tmp
+/build
+main.html
+package-lock.json
+.gitignore
+/compiled
+/tests
+/spec
+index.ts
+jasmine.json
+karma.conf.js
+rollup.config.js
+tsconfig.json
+tslint.json
+webpack.config.js
+index.tasks
+
+# dependencies
+/node_modules
+**/node_modules
+.npmrc
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/*
+.vscode/settings.json
+.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/docs
+/.sass-cache
+/connect.lock
+/coverage/*
+/reports/*
+/tools/**/*.js
+junit.xml
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/src/SDK
+/assets/icons/sprite/**
+.jenkins
+
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
+lerna-debug.log
