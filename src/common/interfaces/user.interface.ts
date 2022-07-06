@@ -9,12 +9,6 @@ export interface IAddress {
   district: string;
   street: string;
 }
-
-export interface IUserMetadata {
-  age: number;
-  habit: string;
-}
-
 export interface IUser extends IActionRecord {
   userId: string;
   name: string;
@@ -23,7 +17,7 @@ export interface IUser extends IActionRecord {
   status: StatusType;
   isDelete: boolean;
   isResetPassword: boolean;
-  metadata?: IUserMetadata;
+  metadata?: Record<string, any>;
   roles: Role[];
   addr1: IAddress;
   addr2?: IAddress;
