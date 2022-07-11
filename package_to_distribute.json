@@ -1,6 +1,6 @@
 {
     "name": "@longlv91/training-common",
-    "version": "1.0.1-alpha",
+    "version": "1.0.1-beta",
     "description": "Training Model",
     "main": "training-common.js",
     "types": "training-common.d.ts",

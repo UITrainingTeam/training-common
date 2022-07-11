@@ -1,6 +1,6 @@
 {
   "name": "@longlv91/training-common",
-  "version": "1.0.1-alpha",
+  "version": "1.0.1-beta",
   "description": "Training common library",
   "keywords": [
     "training",
@@ -32,7 +32,7 @@
     "lint-fix": "npm run tslint-fix",
     "lint:detect-disable": "echo fix me",
     "precommit": "npm run lint && npm run sort:pjson && git add .",
-    "publish": "npm publish --access public",
+    "publish-release": "npm publish --access public",
     "publish-locally": "npm run build:ci && cd dist/ && npm pack && npm link && cd ..",
     "release": "semantic-release",
     "release-notes": "echo fix",
