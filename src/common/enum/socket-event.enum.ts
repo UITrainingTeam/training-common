@@ -9,5 +9,5 @@ export enum SocketEventType {
     REQUEST_JOIN_CHANNEL = 'requestJoinChannel',
     RESPONSE_JOIN_CHANNEL = 'responseJoinChannel',
     ADD_MEMBER = 'addMember',
-    REMOVE_MEMBER = 'removeMember',
+    REMOVE_MEMBER = 'removeMember'
 }

@@ -13,7 +13,9 @@ export {
     IAppConfig,
     IPaginable,
     IApiResponse,
-    ISocketResponse
+    ISocketResponse,
+    IChannel,
+    IMessage,
 } from './common/interfaces';
 
 // Public ultilities
