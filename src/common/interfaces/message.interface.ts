@@ -1,5 +1,6 @@
-export interface IMessage {
+import { IActionRecord } from './action-record.interface';
+
+export interface IMessage extends IActionRecord {
   channelCode: string;
-  author: string;
   content: string;
 }
