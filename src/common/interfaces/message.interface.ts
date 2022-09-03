@@ -4,3 +4,8 @@ export interface IMessage extends IActionRecord {
   channelCode: string;
   content: string;
 }
+
+export interface IGroupMessage {
+  date: string;
+  messages: IMessage[];
+}

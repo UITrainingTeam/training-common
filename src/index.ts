@@ -9,6 +9,8 @@ export {
 export {
     IAddress,
     IUser,
+    AuthLoginModel,
+    AuthReponseModel,
     IMenuConfig,
     IAppConfig,
     IPaginable,
@@ -16,6 +18,7 @@ export {
     ISocketResponse,
     IChannel,
     IMessage,
+    IGroupMessage
 } from './common/interfaces';
 
 // Public ultilities
